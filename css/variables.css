@@ -1,0 +1,13 @@
+/* CSS :root 의사 클래스는 문서 트리의 루트 요소를 선택합니다
+HTML의 루트 요소는 <html> 요소이므로, :root의 명시도가 더 낮다는 점을 제외하면 html 선택자와 똑같습니다.
+
+전역CSS 변수 선언에 유용하게 사용
+
+url : https://developer.mozilla.org/ko/docs/Web/CSS/:root */
+
+:root { 
+    --yellow: #fae100;   
+    --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
