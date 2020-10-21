@@ -1,0 +1,26 @@
+
+.status-bar{
+    display: flex; /*1행 수평정렬*/
+    justify-content: center; /*큰틀안에 요소를 중앙정렬한다.*/
+    padding : 5px 3px 0 0;
+}
+.status-bar__column{
+    width: 33%;
+}
+
+.status-bar__column:first-child span{ /*first-chile란 No service를 말함 */
+    margin-right:5px;
+}
+
+.status-bar__column:nth-child(2) {/*부모N에 대한 자식객체를 선택할 수 있음*/
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status-bar__column .fa-battery-full{
+    margin: 0px 5px ;
+}

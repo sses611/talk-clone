@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"); /*google 폰트사용 */
+
+@import "reset.css";
+@import "variables.css";
+
+
+@import "components/status-bar.css";
+
+
+@import "screens/login.css";
+
+
+body {
+    color: #2e363e;
+    font-family: "Open Sans", sans-serif;
+}
+
+  

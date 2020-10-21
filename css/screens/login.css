@@ -1,0 +1,51 @@
+.welcome-header{
+    margin: 90px 0px; /*이거 한거 안한 거 무슨 차이임?*/
+    text-align: center;
+    display: flex;
+    flex-direction: column; /*수직정렬로 변경*/
+    align-items: center; /*아이템 크기에 맞게 정렬 url : https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_align-items*/
+}
+
+.welcome-header__title{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.welcome-header__text{
+    width: 60%;
+    opacity: 0.7; /* 0~1, 0: 최저, 1: 최고 */
+}
+
+#login-form{ /*margin: 0px 30px; = margin-top: 0px 30px 0px 30px */
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input{
+    border:none; /*박스의 테두리를 지움*/
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 25px; /*input의 사이간격을 벌림*/
+}
+
+#login-form input:not([type="submit"]){ /*submit을 제외한 input태그에 적용*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /*input 아래선*/
+    transition: border-color 0.3s ease-in-out; /*무슨의미인지 잘 모르겠음*/
+}
+
+#login-form input:focus {
+    border-color: var(--yellow); /*border가 선택될시 노랑으로 변경*/
+}
+
+#login-form input[type="submit"]{
+   background-color: var(--yellow);
+   cursor: pointer;
+   padding :20px 0px;
+   border-radius: 5px;
+}
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit; /*부모객체를 그대로 사용*/
+}
