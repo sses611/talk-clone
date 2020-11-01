@@ -8,13 +8,15 @@
 @import "components/user-component.css";
 @import "components/screen-header.css";
 @import "components/nav-bar.css";
-
 @import "components/badge.css";
+@import "components/no-mobile.css";
+@import "components/alt-screen-header.css";
 
 @import "screens/login.css";
 @import "screens/friend.css";
-
-
+@import "screens/chat.css";
+@import "screens/find.css";
+@import "screens/more.css";
 
 
 body {
@@ -22,4 +24,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.main-screen {
+    padding : 0px var(--horizontal-space);
+}
   
